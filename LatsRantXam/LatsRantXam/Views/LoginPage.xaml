@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LatsRantXam.Views.LoginPage"
+             BackgroundImage="mbg.jpg">
+    <ContentPage.Content>
+        <Grid>
+            <StackLayout VerticalOptions="Center" Margin="20">
+                <Image VerticalOptions="Start" Source="litelg.png" Margin="20"/>
+                <Entry Placeholder="username" BackgroundColor="#1c1422" PlaceholderColor="White" TextColor="#eeeeee"/>
+                <Entry Placeholder="password" BackgroundColor="#1c1422" PlaceholderColor="White" TextColor="#eeeeee"/>
+                <Button Text="Login" BackgroundColor="#991a37" BorderRadius="15" Clicked="Button_Clicked" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
